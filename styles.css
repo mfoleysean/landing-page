@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
+
+/* CSS Variables */
+:root {
+    --normal-font: 400;
+    --bold-font: 600;
+    --bolder-font: 900;
+    --primary-color: #F9FAF8;
+    --secondary-color: #3882F6;
+    --line-height: 1.7rem;
+    --transition: 0.3s ease-in;
+  }
+  
+  /* Smooth scroll effect */
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Resets */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: var(--transition);
+  }
+  
+   body {
+    font-family: "Roboto", sans-serf;
+  }
+
+  ul li {
+    list-style-type: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: var(--primary-color);
+  }
+  
+  a:hover {
+    color: var(--secondary-color);
+  } 
+
+  .headerlogo {
+      font-size: 24px;
+      color: #F9FAF8
+  }
+
+  nav {
+      background-color: #1F2937;
+      padding: 25px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      left: 0;
+      z-index: 0;
+  } 
+
+  ul {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+
+  .nav-link {
+      font-size: 18px;
+      color: #E5E7EB;
+      margin-left: 2rem;
+  }
+
+  .hero {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 500px;
+    padding: 100px;
+
+  }
+
+  .intro-text {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    height: 250px;
+    width: 500px;
+    margin: 15px;
+  }
+  .heroimg {
+    display: flex;
+    align-self: baseline;
+    background-color: grey;
+    height: 250px;
+    width: 500px;
+    margin: 15px;
+    
+  }
+
+  .heroimg > h4 {
+    align-self: center;
+    text-align: center;
+    width: 100%;
+  }
+
+  .maintitle {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+  }
+
+  .title-subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+  }
+
+  .btnsignup {
+    height: 40px;
+    width: 100px;
+    padding: 10px;
+    align-self: baseline;
+    text-align: center;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 10px;
+  }
