@@ -80,7 +80,7 @@
 
   }
 
-  .intro-text {
+  .hero-text {
     display: flex;
     flex-direction: column;
     align-content: space-between;
@@ -113,15 +113,80 @@
   .title-subtext {
     font-size: 18px;
     color: #E5E7EB;
+    margin: 5px 0px 5px 0px;
   }
 
   .btnsignup {
     height: 40px;
     width: 100px;
     padding: 10px;
+    margin-top: 10px;
     align-self: baseline;
     text-align: center;
     background-color: #3882F6;
     color: white;
     border-radius: 10px;
+  }
+
+  .infosec {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;
+    width: auto;
+  }
+
+  .info-text {
+    margin: 20px 0px 20px 0px;
+  }
+
+  .info-content {
+   align-items: flex-start;
+   font-size: 40px;
+   margin: 20px;
+  }
+
+  .thumbnails {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 175px;
+    width: 1000px;
+    
+  }
+
+  #tbn-props {
+    height: 175px;
+    width: 175px;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 15px;
+    border-color: #3882F6;
+  }
+
+  .tbn {
+    display: flex;
+  }
+
+  #tbn-text {
+    display: flex;
+    font-size: 18px;
+    text-align: center;
+    color: #9a9c9f;
+    height: 175px;
+    width: 175px;
+    padding: 7px;
+  }
+  
+  .quote {
+    background-color: #E5E7EB;
+    height: 500px;
+    width: auto;
+  }
+
+  #qwords {
+    font-size: 36px;
+    font-weight: 0;
+    font-style: italic;
   }
