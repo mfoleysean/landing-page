@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,100&display=swap');
 
 /* CSS Variables */
 :root {
@@ -6,7 +6,7 @@
     --bold-font: 600;
     --bolder-font: 900;
     --primary-color: #F9FAF8;
-    --secondary-color: #3882F6;
+    --secondary-color: #b4b4b4;
     --line-height: 1.7rem;
     --transition: 0.3s ease-in;
   }
@@ -70,6 +70,8 @@
       margin-left: 2rem;
   }
 
+/* Hero Section */
+
   .hero {
     background-color: #1F2937;
     display: flex;
@@ -128,6 +130,8 @@
     border-radius: 10px;
   }
 
+/* Information Section */
+
   .infosec {
     display: flex;
     justify-content: space-around;
@@ -178,15 +182,78 @@
     width: 175px;
     padding: 7px;
   }
-  
+ 
+/* Quote Section */  
+
   .quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     background-color: #E5E7EB;
     height: 500px;
+    padding: 100px 325px 100px 325px;
     width: auto;
   }
 
   #qwords {
+    display: flex;
+    width: auto;
     font-size: 36px;
-    font-weight: 0;
+    font-weight: lighter;
     font-style: italic;
   }
+
+  #qspeaker {
+    display: flex;
+    align-self: flex-end;
+    font-weight: bolder;
+    font-size: 25px;
+  }
+
+/* Call To Action Section */ 
+  
+  .cta {
+    display: flex;
+    height: 500px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ctabox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 150px;
+    width: 1000px;
+    background-color: #3882F6;
+    border-radius: 10px;
+  }
+
+  #ctawords1 {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+  }
+
+  #ctawords2 {
+    font-size: 15px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #E5E7EB;
+  }
+
+  .ctabtn {
+    height: 30px;
+    width: 130px;
+    padding: 10px;
+    margin: 3px;
+    border: 3px white;
+    border-style: solid;
+    border-radius: 15px;
+    text-align: center;
+    background-color: #3882F6;
+    color: white;
+  }  
