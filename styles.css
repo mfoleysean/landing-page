@@ -257,3 +257,14 @@
     background-color: #3882F6;
     color: white;
   }  
+
+  /* Copyright Info Footer */
+
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    background-color: #1F2937;
+    color: #E5E7EB;
+  }
